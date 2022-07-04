@@ -47,9 +47,9 @@ expressions régulières.
     - `text2web_html.py` : création automatique de HTML à partir d'un texte brut
     - `text2web_viz.py` : analyse statistique du fichier et visualisation de données
 - `utils/` : fichiers utilisés pendant le tutoriel
-    `static/` : dossier contenant une feuille de style CSS et les fontes utilisées par notre site web (toutes deux open source)
-    `to_text.py` : script python utilisé pour la création du fichier source (dans input/)
-    `catalog_web_skeleton.html` : squelette de HTML auquel on viendra ajouter le contenu créé pendant les tutoriels
+    - `static/` : dossier contenant une feuille de style CSS et les fontes utilisées par notre site web (toutes deux open source)
+    - `to_text.py` : script python utilisé pour la création du fichier source (dans input/)
+    - `catalog_web_skeleton.html` : squelette de HTML auquel on viendra ajouter le contenu créé pendant les tutoriels
 - `0_text2web_intro.ipynb` : 1er notebook introductif
 - `1_text2web_html.ipynb` : 2e notebook: traitement du document source et création automatique d'un fichier HTML
 - `2_text2web_viz.ipynb` : 3e notebook: analyse statistique basique du document source et création de visualisations
