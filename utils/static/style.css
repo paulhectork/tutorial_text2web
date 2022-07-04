@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'melsreg';
+  src: url('./fonts/Mels-Regular.otf') format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'melsit';
+  src: url('./fonts/Mels-Italic.otf') format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'sewaka';
+  src: url('./fonts/SewakaDisplay-Regular.otf') format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+:root {
+  --white: #ffffff;
+  --blue: #0000ef;
+  --purple: #bd148b;
+  --font-emph: "sewaka";
+  --font-general: "mels", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  color: var(--white);
+  background: linear-gradient(0deg, var(--purple), var(--blue) 70%);
+  background-attachment: fixed;
+  font-family: var(--font-general);
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+dt {
+  font-weight: 700;
+  color: var(--purple);
+  font-family: var(--font-emph);
+}
+
+dd {
+  margin-bottom: 0.5rem;
+  margin-left: 0;
+}
+
+h1 {
+  margin: 2% 20vh 0vh 20vh;
+  text-align: center;
+  font-family: var(--font-emph);
+}
+
+#main {
+  background-color: var(--white);
+  color: var(--blue);
+  margin: 10vh 15vh 10vh 15vh;
+  padding: 5vh 10vh 5vh 10vh;
+  border: 5px solid white;
+  border-radius: 5px;
+}
+
+#main div {
+  border: solid 3px var(--blue);
+  border-radius: 0.5rem;
+  padding: 2vh 5vh 2vh 5vh;
+  margin: 1vh 0vh 1vh 0vh;
+}
+
+#graph {
+  margin: 2% 5% 0% 5%;
+  border: 5px solid white;
+  border-radius: 5px;
+}
