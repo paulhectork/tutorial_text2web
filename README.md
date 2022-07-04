@@ -26,6 +26,9 @@ texte brut, nous produisons un HTML structuré avec des visualisations. En bref,
     - la création de visualisations avec [Plotly](https://plotly.com/python/)
     - (bonus) une introduction à la rechrche de motifs à l'aide d'expressions régulières
     - (bonus) une introduction à la manipulation de XML avec la librairie [lxml](https://lxml.de/).
+- **niveau** : débutant/intermédiaire. Tout est expliqué et détaillé, donc en théorie compréhensible par
+  un.e grand.e débutant.e. Il est quand même préférable d'avoir des bases en python (utilisation de fonctions,
+  différents types de données et manières de les manipuler).
 
 Le **tutoriel** est structuré sous la forme de 4 notebooks jupyter, qui permettent d'avoir du texte explicatif
 et des scripts python directement exécutables. Le tutoriel contient aussi des exercices corrigés pour se faire
