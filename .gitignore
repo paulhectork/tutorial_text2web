@@ -4,5 +4,5 @@ env_tutoriel/
 .git/
 /**/__pycache__/
 text2web/*/__pycache__/
-/**/.ipynb_checkpoints/
+.ipynb_checkpoints/
 /output/
