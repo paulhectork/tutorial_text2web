@@ -1,4 +1,4 @@
-# `text2web` : transformation d'un texte brut vers une édition web et visualisation en python
+# `text2web` : introduction à l'analyse textuelle, création d'une édition web depuis un texte brut et introduction à la visualisation en python
 
 ---
 
@@ -29,6 +29,7 @@ texte brut, nous produisons un HTML structuré avec des visualisations. En bref,
 - **niveau** : débutant/intermédiaire. Tout est expliqué et détaillé, donc en théorie compréhensible par
   un.e grand.e débutant.e. Il est quand même préférable d'avoir des bases en python (utilisation de fonctions,
   différents types de données et manières de les manipuler).
+- **langue**: français (mais vous l'aurez remarqué)
 
 Le **tutoriel** est structuré sous la forme de 4 notebooks jupyter, qui permettent d'avoir du texte explicatif
 et des scripts python directement exécutables. Le tutoriel contient aussi des exercices corrigés pour se faire
@@ -38,6 +39,9 @@ scripts python largement commentés, disponibles dans le dossier `src/`.
 En **bonus**, un script python largement commenté détaille la création du fichier utilisé comme source du
 tutoriel. C'est le script `utils/to_text.py`. Il donne une introduction à l'utilisation de `lxml` et des
 expressions régulières.
+
+Les données utilisées en source sont produites par le projet [Katabase / MSS](https://katabase.huma-num.fr/) 
+(UniGe, UniNe, ENS).
 
 ---
 
