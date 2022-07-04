@@ -1,0 +1,8 @@
+utils/1_OutputData
+env_tutoriel/
+.idea/
+.git/
+/**/__pycache__/
+text2web/*/__pycache__/
+/**/.ipynb_checkpoints/
+/output/
